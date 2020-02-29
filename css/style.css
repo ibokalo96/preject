@@ -1,0 +1,60 @@
+#intro {
+    height: 100px;
+}
+#new__arivals {
+    height: 800px;
+}
+#shop__images {
+    height: 600px;
+    background-color: red;
+}
+.left__block{
+    background-color: black;
+    width: 50%;
+    float: left;
+    height: 784px;
+}
+.right__block {
+    width: 50%;
+    float: right;
+}
+.new__arrivals__title {
+    color: white;
+}
+.backpack__left {
+    float: left;
+    width: 30%;
+}
+.duffle__centre {
+    width: 30%;
+    float: left;
+    height: 500px;
+}
+.travel__right {
+    float: right;
+    width: 30%;
+}
+
+.sale__img {
+    display: inline-block;
+    
+}
+#sale {
+    background-color: black;
+    text-align: center;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+.people {
+    display: inline-block;
+}
+#people__img{
+    text-align: center;
+}
+* {
+    background-color: black;
+}
+#about {
+    text-align: center;
+}

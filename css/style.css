@@ -4,8 +4,8 @@
     font-family: 'Oswald';
 }
 body {
-    max-width: 100%;
-    margin: auto
+    max-width: 2048px;
+    margin: auto;
 }
 /* header nav h1 {
     font-family: 'Oswald';
@@ -21,15 +21,15 @@ body {
     text-decoration: none;
     color: white;
     font-size: 24pt;
-    padding: 13px 0px 0px 45px;
+    margin-left: 50px;
 }
+
 
 .top__menu {
     display: flex;
     justify-content: space-around;
-    padding: 26px 0px 0px 0px;
     list-style-type: none;
-    margin: 0;
+    margin-left: 40%;
 }
 .menu__title:hover {
     color: #fff;
@@ -56,13 +56,15 @@ header nav .top__menu a {
 }
 .header__fon {
     background-color: rgb(0, 0, 0, 0.5);
-    height: 80px;
+    height: 90px;
     padding: 10px;
     margin: 0px;
+    align-items: center;
+
 }
 .banner {
     background-image: url(../img/header_img.jpg);
-    min-height: 819px;
+    min-height: 1024px;
     background-position: center;
     background-size: cover;
     
@@ -72,25 +74,60 @@ header nav .top__menu a {
     color: #ffffff;
 } */
 .header__title {
-    font-size: 48pt;
+    font-size: 5rem;
     text-transform: uppercase;
     color: #ffffff;
     display: flex;
     justify-content: center;
-    padding: 240px 0px 0px 0px;
-    margin: 0px;
-    
-
-   
-   
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 0;
+}
+.header__btn:hover{
+    color: #a09c9d;
+    transition: 0.5s;
 }
 .header__btn {
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
     color: #ffffff;
     display: flex;
     text-decoration: none;
     justify-content: center;
+    transition: 0.5s;
+}
 
-    
+.left__block {
+    height: 1024px;
+    width: 50%;
+    background-color: black;
+    float: left;
+
+}
+.right__block {
+    width: 50%;
+    height: 1024px;
+    float: left;
+    background-image: url(../img/fashion.bag111.jpg);
+    background-repeat: no-repeat;
+}
+.new__arrivals__title {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 40%;
+    margin-bottom: 0;
+}
+.new__arrivals__title__shop{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3rem;
+    transition: 0.5s;
+}
+.new__arrivals__title__shop:hover {
+    color: #a09c9d;
+    transition: 0.5s;
 }

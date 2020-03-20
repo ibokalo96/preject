@@ -64,7 +64,7 @@ header nav .top__menu a {
 }
 .banner {
     background-image: url(../img/header_img.jpg);
-    min-height: 1024px;
+    min-height: 850px;
     background-position: center;
     background-size: cover;
     
@@ -96,9 +96,11 @@ header nav .top__menu a {
     justify-content: center;
     transition: 0.5s;
 }
-
+#new__arivals {
+    min-height: 850px;
+}
 .left__block {
-    height: 1024px;
+    height: 850px;
     width: 50%;
     background-color: black;
     float: left;
@@ -106,7 +108,7 @@ header nav .top__menu a {
 }
 .right__block {
     width: 50%;
-    height: 1024px;
+    height: 850px;
     float: left;
     background-image: url(../img/fashion.bag111.jpg);
     background-repeat: no-repeat;
@@ -130,4 +132,8 @@ header nav .top__menu a {
 .new__arrivals__title__shop:hover {
     color: #a09c9d;
     transition: 0.5s;
+}
+.people {
+    display: inline;
+    justify-content: center;
 }

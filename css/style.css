@@ -4,7 +4,7 @@
     font-family: 'Oswald';
 }
 body {
-    max-width: 2048px;
+    max-width: 1600px;
     margin: auto;
 }
 /* header nav h1 {
@@ -97,10 +97,10 @@ header nav .top__menu a {
     transition: 0.5s;
 }
 #new__arivals {
-    min-height: 850px;
+    min-height: 747px;
 }
 .left__block {
-    height: 850px;
+    height: 747px;
     width: 50%;
     background-color: black;
     float: left;
@@ -108,9 +108,9 @@ header nav .top__menu a {
 }
 .right__block {
     width: 50%;
-    height: 850px;
+    height: 747px;
     float: left;
-    background-image: url(../img/fashion.bag111.jpg);
+    background-image: url(../img/fashion_bag.jpg);
     background-repeat: no-repeat;
 }
 .new__arrivals__title {
@@ -118,7 +118,7 @@ header nav .top__menu a {
     color: #fff;
     text-align: center;
     font-size: 4rem;
-    margin-top: 40%;
+    margin-top: 35%;
     margin-bottom: 0;
 }
 .new__arrivals__title__shop{
@@ -133,7 +133,12 @@ header nav .top__menu a {
     color: #a09c9d;
     transition: 0.5s;
 }
+.pep__img {
+    width: 33%;
+    height: 700px;
+    
+}
 .people {
     display: inline;
-    justify-content: center;
+    justify-content: space-between;
 }

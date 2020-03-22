@@ -7,15 +7,17 @@ body {
     max-width: 1600px;
     margin: auto;
 }
-/* header nav h1 {
-    font-family: 'Oswald';
-    font-size: 3ren;
-} */
-/* a, nav, p {
-    margin: 0;
-    padding: 0;
-} */
-
+header{
+    background-color: rgb(0, 0, 0, 0.5);
+}
+header nav {
+    display: flex;
+    
+}
+.top__menu {
+    flex: 1;
+    display: flex;
+}
 .logo {
     text-transform: uppercase; 
     text-decoration: none;
@@ -44,16 +46,6 @@ header nav .top__menu a {
     font-size: 12pt;
 }
 
-@media (min-width: 550px) {
-    header nav {
-        display: flex;
-        
-    }
-    .top__menu {
-        flex: 1;
-        display: flex;
-    }
-}
 .header__fon {
     background-color: rgb(0, 0, 0, 0.5);
     height: 90px;
@@ -62,17 +54,18 @@ header nav .top__menu a {
     align-items: center;
 
 }
-.banner {
-    background-image: url(../img/header_img.jpg);
-    min-height: 850px;
-    background-position: center;
-    background-size: cover;
-    
-
-}
 /* .a:hover {
     color: #ffffff;
 } */
+#plan__adventure{
+    background-image: url(../img/header_img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
 .header__title {
     font-size: 5rem;
     text-transform: uppercase;
@@ -80,8 +73,7 @@ header nav .top__menu a {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 15%;
-    margin-bottom: 0;
+    margin: 0;
 }
 .header__btn:hover{
     color: #a09c9d;
@@ -97,29 +89,29 @@ header nav .top__menu a {
     transition: 0.5s;
 }
 #new__arivals {
-    min-height: 747px;
-}
-.left__block {
     height: 747px;
-    width: 50%;
     background-color: black;
-    float: left;
+    display: flex;
+}
+
+.left__block { 
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .right__block {
-    width: 50%;
-    height: 747px;
-    float: left;
+    flex: 1;
     background-image: url(../img/fashion_bag.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .new__arrivals__title {
-    display: block;
     color: #fff;
     text-align: center;
     font-size: 4rem;
-    margin-top: 35%;
-    margin-bottom: 0;
+    margin: 0;
 }
 .new__arrivals__title__shop{
     display: block;
@@ -133,12 +125,382 @@ header nav .top__menu a {
     color: #a09c9d;
     transition: 0.5s;
 }
-.pep__img {
-    width: 33%;
-    height: 700px;
-    
+#people__img {
+    display: flex;
+    justify-content: space-between;
 }
 .people {
-    display: inline;
-    justify-content: space-between;
+    flex: 1;
+}
+.people > a > img{
+    width: 100%;
+    height: 100%;
+}
+#sale{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    background-color: black;
+}
+.sale__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+
+}
+.sale__header > h1, h4{
+    margin: 0;
+    font-size: 40pt;
+    color: #fff;
+}
+.sale__img{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+
+}
+.sale__photo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sale__photo > a{
+    flex: 5;
+}
+
+.sale__photo > a >img{
+    height: 100%;
+    width: 100%;
+}
+.sale__header >h4{
+    margin: 0;
+    font-size: 24pt;
+}
+.sale__wrapper{
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.sale__photo > h3, .sale__photo > p {
+    color: #fff;
+    text-align: center;    
+}
+.sale__photo > h3 {
+    font-size: 24pt;
+    text-transform: uppercase;
+    margin: 0;
+}
+.sale__photo > p {
+    font-size: 18pt;
+}
+#about{
+    background-image: url(../img/main_img.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shadow {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.shadow > .empty{
+    flex: 1;
+}
+.shadow__text {
+    flex: 2;
+    color: #fff;
+}
+.shadow__text >p {
+    margin-right: 50px;
+    font-size: 16pt;
+}
+.shadow__text >h1 {
+    text-transform: uppercase;
+    font-size: 24pt;
+}
+#contact {
+    display: flex;
+    height: 500px;
+    background-color: black;
+
+}
+.form {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.contact__text {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+}
+.contact__wrapper h1, .contact__wrapper p {
+    padding-left: 50px;
+}
+.contact__wrapper {
+    width: 60%;
+    color: #fff;
+}
+.contact__wrapper h1 {
+    font-size: 48pt;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.form__wrapper {
+    background: black;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.form__wrapper > form {
+    margin-right: 100px;
+}
+.textarea {
+    width: 300px;
+    height: 100px;
+    display: block;
+    background-color: black;
+    outline-color: white;
+}
+.form__wrapper form input {
+    outline-color: white;
+    width: 100%;
+    background-color: black;
+    height: 30px;
+}
+.form__wrapper form p {
+    margin: 15px 0 0;
+    color: #fff;
+}
+.form__wrapper form button {
+    background-color: black;
+    color: #fff;
+    border: 2px solid white;
+    margin-left: auto;
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+    width: 110px;
+    font-weight: 500;
+    font-size: 12pt;
+}
+#join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #141414;
+}
+.join__wrapper{
+    background-color: #141414;
+    box-shadow: 0px 0px 10px black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.join__wrapper h1 {
+    font-size: 48pt;
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding: 20px 65px 0;
+}
+.join__wrapper h3 {
+    font-size: 20pt;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.join__wrapper form p {
+    font-size: 14pt;
+    margin: 25px 0 0;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.join__wrapper form input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 4px;
+    border: 3px solid white;
+    display: block;
+    font-size: 12pt;
+    font-weight: 700;
+    
+}
+.join__wrapper form {
+    padding: 0 30px 40px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #1a1919;
+}
+.footer__text a {
+    color: grey;
+    font-size: 12pt;
+}
+.footer__text {
+    color: grey;
+    font-size: 12pt;
+}
+
+/* media */
+
+@media screen and (max-width: 900px) {
+
+    header nav .top__menu a{
+        font-size: 8pt;
+    }
+    .top__menu{
+        margin-left: 15%;
+    }
+    #plan__adventure {
+        height: 700px;
+    }
+    .header__title {
+        font-size: 4rem;
+    }
+    #new__arivals {
+        height: 500px;
+    }
+    .new__arrivals__title {
+        font-size: 3rem;
+    }
+    .new__arrivals__title__shop {
+        font-size: 2rem;
+    }
+    #sale {
+        height: 560px;
+    }
+    .sale__photo > h3 {
+        font-size: 16pt;
+    }
+    .sale__photo > p {
+        font-size: 15pt;
+    }
+    #about {
+        height: 500px;
+    }
+    .shadow__text >h1 {
+        font-size: 24pt;
+    }
+    .shadow__text >p {
+        font-size: 12pt;
+    }
+    #contact {
+        height: 450px;
+    }
+    .contact__wrapper h1 {
+        font-size: 38pt;
+    }
+    #join {
+        height: 400px;
+    }
+    footer {
+        height: 100px;
+    }
+}
+@media screen and (max-width: 560px) {
+
+    .header__fon{
+        height: 80px;
+        background-color: black;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__fon > a{
+        display: block;
+        margin: 0px;
+    }
+    
+    header nav .top__menu a{
+        font-size: 10pt;
+    }
+
+    .header__fon > ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    #plan__adventure {
+        height: 350px;
+    }
+    .header__title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    #new__arivals {
+        flex-direction: column;
+        height: 720px;
+    }
+    #people__img {
+        flex-direction: column;
+    }
+    .people {
+        height: 465px;
+    }
+    .new__arrivals__title {
+        font-size: 3rem;
+    }
+    .new__arrivals__title__shop {
+        font-size: 2rem;
+    }
+    .sale__wrapper {
+        flex-direction: column;
+    }
+    #sale {
+        height: 1750px;
+    }
+    .sale__header {
+        margin-top: 55px;
+    }
+    #about {
+        height: 400px;
+    }
+    .shadow {
+        width: 100%;
+    }
+    .empty {
+        display: none;
+    }
+    .shadow__text {
+        margin-left: 10%;
+    }
+    #contact {
+        flex-direction: column-reverse;
+        height: 750px;
+    }
+    .form__wrapper > form {
+        margin-right: 58px;
+    }
+    .join__wrapper h1 {
+        font-size: 21pt;
+    }
+    footer {
+        flex-direction: column-reverse;
+        height: 170px;
+    }
 }

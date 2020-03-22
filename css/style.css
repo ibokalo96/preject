@@ -25,8 +25,6 @@ header nav {
     font-size: 24pt;
     margin-left: 50px;
 }
-
-
 .top__menu {
     display: flex;
     justify-content: space-around;
@@ -36,8 +34,6 @@ header nav {
 .menu__title:hover {
     color: #fff;
 }
-
-
 header nav .top__menu a {
     text-decoration: none;
     text-transform: uppercase;
@@ -45,14 +41,12 @@ header nav .top__menu a {
     padding: 5px;
     font-size: 12pt;
 }
-
 .header__fon {
     background-color: rgb(0, 0, 0, 0.5);
     height: 90px;
     padding: 10px;
     margin: 0px;
     align-items: center;
-
 }
 /* .a:hover {
     color: #ffffff;
@@ -229,14 +223,11 @@ header nav .top__menu a {
     display: flex;
     height: 500px;
     background-color: black;
-
 }
 .form {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    
-
 }
 .contact__text {
     flex: 1;
@@ -263,7 +254,6 @@ header nav .top__menu a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }
 .form__wrapper > form {
     margin-right: 100px;
@@ -345,7 +335,6 @@ header nav .top__menu a {
     display: block;
     font-size: 12pt;
     font-weight: 700;
-    
 }
 .join__wrapper form {
     padding: 0 30px 40px;

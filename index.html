@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -94,7 +95,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</section>
 		<section id="about">
 			<div class="shadow">
@@ -102,7 +103,8 @@
 				<div class="shadow__text">
 					<h1>ABOUT US</h1>
 					<p>
-						Greetings! We love traveling the same as you, so this site will help you to get a great bag for your trip.
+						Greetings! We love traveling the same as you, so this site will help you to get a great bag for
+						your trip.
 						We know how to make your jorney comfortable!
 					</p>
 				</div>
@@ -111,19 +113,19 @@
 		<section id="contact">
 			<div class="form">
 				<div class="form__wrapper">
-				<form>
-					<p>Enter Your Name</p>
-					<input type="text" placeholder="Name" required>
-					<p>Enter Your Email</p>
-					<input type="email" placeholder="Email" required>
-					<p>Enter Your Subject</p>
-					<input type="text" placeholder="Subject">
-					<p>Enter Your Message</p>
-					<textarea class="textarea" maxlength="150" rows="8" type="text"></textarea>
-					<button type="submit">Send</button>
-				</form>
-				
-			</div>
+					<form action="https://formspree.io/mqklwzgd" method="POST">
+						<p>Enter Your Name</p>
+						<input type="text" name="name" placeholder="Name" required>
+						<p>Enter Your Email</p>
+						<input type="email" name="email" placeholder="Email" required>
+						<p>Enter Your Subject</p>
+						<input type="text" name="subject" placeholder="Subject">
+						<p>Enter Your Message</p>
+						<textarea class="textarea" name="message" maxlength="150" rows="8" type="text"></textarea>
+						<button type="submit">Send</button>
+					</form>
+
+				</div>
 			</div>
 			<div class="contact__text">
 				<div class="contact__wrapper">
@@ -143,20 +145,21 @@
 			<div class="join__wrapper">
 				<h1>JOIN OUR MAILING LIST</h1>
 				<h3>AND NEVER MISS AN UPDATE</h3>
-				<form>
+				<form action="https://formspree.io/mqklwzgd" method="POST">
 					<p>Enter your email here</p>
-					<input type="email" placeholder="Email" required>
-					<input type="submit" value="SUBSCRIBE NOW">
+					<input type="email" name="email" placeholder="Email" required>
+					<input type="submit" name="subcribed" value="SUBSCRIBE NOW">
 				</form>
 			</div>
 		</section>
 
 	</main>
 	<footer>
-			<div class="footer__text">© 2020 by NORTHPOLE. Proudly created with <a href="https://www.linkedin.com/in/igor-bokalo-23990b176/">Igor Bokalo</a></div> 
-			<div class="footer__text"><a href="#home">FAQ</a></div>
-			<div class="footer__text"><a href="#home">Shipping & Returns</a></div>
-			<div class="footer__text"><a href="#home">Terms & Conditions</a></div>
+		<div class="footer__text">© 2020 by NORTHPOLE. Proudly created with <a
+				href="https://www.linkedin.com/in/igor-bokalo-23990b176/">Igor Bokalo</a></div>
+		<div class="footer__text"><a href="#home">FAQ</a></div>
+		<div class="footer__text"><a href="#home">Shipping & Returns</a></div>
+		<div class="footer__text"><a href="#home">Terms & Conditions</a></div>
 
 	</footer>
 

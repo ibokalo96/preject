@@ -262,7 +262,12 @@ header nav .top__menu a {
     display: flex;
     justify-content: flex-end;
 }
-
+ form input {
+     color: white;
+ }
+ .textarea {
+     color: white;
+ }
 .contact__text {
     flex: 1;
     display: flex;
